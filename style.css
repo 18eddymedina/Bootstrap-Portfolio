@@ -1,0 +1,55 @@
+
+#box{
+    background-color: white;
+
+    height: auto;
+    top:60px;
+   z-index: 10;
+    padding:30px;
+}
+#navigationBar{
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    align-self: auto;
+
+}
+.nav{
+    color: #4aaaa5;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.tag1 {
+    float: down;
+    position: relative;
+    left: 0px;
+    bottom: -150px;
+    z-index: 20;
+    background-color: #92AD40;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    width:200px;
+ }
+#bio{
+    
+    text-align: center;
+   color: white;
+    background-color: #4aaaa5;
+    width:15%;
+    float: left;
+    left: 20%;
+    z-index: 0;
+    position: fixed;
+    align-self: auto;
+    top: 0%;
+  height: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  size: 10px;
+}
+#name{
+    justify-content: left;
+}
